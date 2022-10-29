@@ -9,10 +9,4 @@ user_selection = int(
 computer_selection = random.randint(1, 3)
 
 if (computer_selection == user_selection):
-    print('''
-    
-    It's a draw! You and your opponent chose the same move.
-    
-    ''')
-
-elif (computer_selection == 1 and user_selection == 2):
+    print("It's a draw")
