@@ -42,7 +42,7 @@ if (computer_selection == 1 and user_selection == 1):
     Opponent Chose:
     {rock}
 
-    It's a draw! Both of you chose rock!
+    It's a draw! You and your opponent chose the same move.
     ''')
 
 elif (computer_selection == 1 and user_selection == 2):
@@ -86,27 +86,5 @@ elif (computer_selection == 2 and user_selection == 2):
     Opponent Chose:
     {paper}
 
-    It's a draw! Both of you chose paper!
-    ''')
-
-elif (computer_selection == 2 and user_selection == 3):
-    print(F'''
-    You Chose:
-    {scissor}
-
-    Opponent Chose:
-    {paper}
-
-    Scissor cuts paper! You won!
-    ''')
-
-elif (computer_selection == 2 and user_selection == 3):
-    print(F'''
-    You Chose:
-    {scissor}
-
-    Opponent Chose:
-    {paper}
-
-    Scissor cuts paper! You won!
+    Paper beats scissor ... which means you lost!
     ''')
